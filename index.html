@@ -12,14 +12,14 @@
     if (Hls.isSupported()) {
       var video = document.getElementById('video');
       var hls = new Hls();
-      hls.loadSource('https://yourdomain.com/videos/playlist.m3u8');
+      hls.loadSource('https://jiteshbodele.github.io/hls/master.m3u8');
       hls.attachMedia(video);
       hls.on(Hls.Events.MANIFEST_PARSED, function() {
         video.play();
       });
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
       // For Safari (native HLS support)
-      video.src = 'https://yourdomain.com/videos/playlist.m3u8';
+      video.src = 'https://jiteshbodele.github.io/hls/master.m3u8';
       video.addEventListener('loadedmetadata', function() {
         video.play();
       });
