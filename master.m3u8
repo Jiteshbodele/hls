@@ -1,4 +1,7 @@
 #EXTM3U
 #EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=1080x1920
-./playlist.m3u
+./1080p/playlist.m3u
 
+#EXT-X-STREAM-INF:BANDWIDTH=200000,RESOLUTION=720x1280
+./720p/playlist.m3u
+>>>>>>> 5cdba8d (Removed nested git repo from 1080p)

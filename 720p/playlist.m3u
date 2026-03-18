@@ -10,7 +10,7 @@ mv1/segment_0.ts
 #EXT-X-DISCONTINUITY
 
 #EXTINF:0.600600,
-pc1/segment_0.ts
+pc/segment_0.ts
 #EXT-X-DISCONTINUITY
 
 #EXTINF:3.103100,
